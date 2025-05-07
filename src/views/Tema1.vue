@@ -477,7 +477,7 @@
         h5.mb-5 Estructura general del estado de resultados por naturaleza de los gastos
         .row.mb-5
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/estructura-general-estado.xls')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-xls.svg")
               .anexo__texto
