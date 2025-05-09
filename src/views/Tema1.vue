@@ -15,13 +15,13 @@
           p.mb-0 Cabe resaltar que también se representa gráficamente por medio de barras; si la barra está posicionada hacia arriba es utilidad, y si la barra está posicionada hacia abajo es pérdida, como se muestra a continuación:
 
         .row.mb-5.justify-content-center
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .titulo-sexto.color-acento-contenido
               h5 Figura 1
               span Estado de resultado con utilidad
             figure
               img(src="@/assets/curso/temas/tema1/1.svg", data-aos="zoom-in")
-          .col-lg-4
+          .col-lg-4.mb-3.mb-lg-0
             .titulo-sexto.color-acento-contenido
               h5 Figura 2
               span Estado de resultado con pérdida
