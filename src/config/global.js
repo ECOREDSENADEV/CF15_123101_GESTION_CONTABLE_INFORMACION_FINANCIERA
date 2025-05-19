@@ -61,7 +61,7 @@ export default {
           },
           {
             numero: '1.5',
-            titulo: 'Cuentas Otro Resultado Integral (ORI)',
+            titulo: 'Cuentas otro resultado integral (ORI)',
             hash: 't_1_5',
           },
           {
@@ -110,7 +110,7 @@ export default {
           },
           {
             numero: '2.5',
-            titulo: 'Cuentas del Estado de situación financiera',
+            titulo: 'Cuentas del estado de situación financiera',
             hash: 't_2_5',
           },
           {
@@ -250,11 +250,26 @@ export default {
   },
   complementario: [
     {
-      tema: 'Estados financieros de propósito general.',
+      tema: 'Marco normativo para estados financieros en Colombia',
       referencia:
-        'Servicio Nacional de Aprendizaje, SENA. (2018). Revista Finnova: Investigación e Innovación Financiera y Organizacional. ',
-      tipo: 'Capítulo 1 de libro',
-      link: 'http://revistas.sena.edu.co/index.php/finn',
+        'Presidencia de la República. (2015). Decreto 2420 de 2015: Por el cual se expide el DUR de las Normas de Contabilidad e Información Financiera. Diario Oficial No. 49.674.',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745',
+    },
+    {
+      tema: 'NIIF completas (IFRS Full)',
+      referencia:
+        'International Accounting Standards Board (IASB). (2023). Normas Internacionales de Información Financiera completas (IFRS Full). Fundación IFRS.',
+      tipo: 'Página web',
+      link: 'https://www.ifrs.org/issued-standards/list-of-standards/ ',
+    },
+    {
+      tema: 'NIIF para PYMES',
+      referencia:
+        'International Accounting Standards Board (IASB). (2023). Norma Internacional de Información Financiera para Pequeñas y Medianas Entidades (NIIF para las PYMES). Fundación IFRS.',
+      tipo: 'Página web',
+      link: 'https://www.ifrs.org/issued-standards/ifrs-for-smes/ ',
     },
   ],
   glosario: [
@@ -274,49 +289,50 @@ export default {
         'son aquellos que pretenden cubrir las necesidades de usuarios que no están en condiciones de exigir informes a la medida de sus necesidades específicas de información.',
     },
     {
-      termino: 'Financial Accounting Standards Board - FASB',
+      termino: '<em>Financial Accounting Standards Board</em> - FASB',
       significado:
         'en español traduce Misión del Concejo para los Estándares de Contaduría Financiera y es la entidad encargada de fijar los principios de contabilidad generalmente aceptados en los Estados Unidos. ',
     },
     {
-      termino: 'Generally Accepted Accounting Principles – GAAP',
+      termino: '<em>Generally Accepted Accounting Principles</em> - GAAP',
       significado:
         'su traducción corresponde a Principios de Contabilidad Generalmente Aceptados y son de uso general en el mundo, los USGAAP son los principios de contabilidad generalmente aceptados en Estados Unidos, mientras que los COLGAAP son los principios de contabilidad generalmente aceptados en Colombia.',
     },
     {
-      termino: 'International Accounting Standard - IAS',
+      termino: '<em>International Accounting Standard</em> - IAS',
       significado:
         'Norma Internacional de Contabilidad, fueron todas las normas de Contabilidad emitidas por el Comité de Normas Internacionales de Contabilidad.',
     },
     {
-      termino: 'International Accounting Standards Board - IASB',
+      termino: '<em>International Accounting Standards Board</em> - IASB',
       significado:
         'en español traduce Junta de Normas Internacionales de Contabilidad, fue creada en el año 2001 para ejercer las funciones que desde 1973 y hasta el año 2001 ejerció el IASC. ',
     },
     {
-      termino: 'International Accounting Standards Committee - ',
+      termino: '<em>International Accounting Standards Committee</em>',
       significado:
         'en español es el Comité de Normas Internacionales de Contabilidad, creado en Londres en 1973 con el fin de estudiar y proponer Normas internacionales de Información financiera internacionales y con el apoyo de 9 países (Australia, Canadá, Francia, Alemania, Japón, México, Países Bajos, Reino Unido y Estados Unidos) aunque Estados Unidos fue el único miembro de los países fundadores que decidió no utilizar las normas Emitidas por el IASC en un principio.',
     },
     {
-      termino: 'International Accounting Education Standard Board - IAESB',
+      termino:
+        '<em>International Accounting Education Standard Board</em> - IAESB',
       significado:
         'su sigla en español es IES. Calidad de la educación contable, para poder hacer paralelos en la implementación de las normas contables. ',
     },
     {
-      termino: 'International Financial Reporting Standards- IFRS',
+      termino: '<em>International Financial Reporting Standards</em> - IFRS',
       significado:
         'en español ha sido traducido como Normas Internacionales de Información Financiera (NIIF) y son las normas que ha emitido desde el 2001 la junta de normas internacionales de Contabilidad.',
     },
     {
       termino: 'NIC',
       significado:
-        'Norma Internacional de Contabilidad, es la equivalencia de la sigla en inglés IAS (Institute Accounting Standard).',
+        'Norma Internacional de Contabilidad, es la equivalencia de la sigla en inglés IAS (<em>Institute Accounting Standard</em>).',
     },
     {
       termino: 'NIIF',
       significado:
-        'Norma Internacional de Información Financiera, es la equivalencia de la sigla en inglés IFRS (International Financial Reporting Estandar).',
+        'Norma Internacional de Información Financiera, es la equivalencia de la sigla en inglés IFRS (<em>International Financial Reporting Standard</em>).',
     },
     {
       termino: 'Pasivo corriente',
@@ -327,13 +343,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Congreso de la República de Colombia. (13 de julio de 2009). Ley 1314 de 2009. ',
-      link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1314_2009.html',
-    },
-    {
-      referencia:
-        'Consejo Técnico de la Contaduría Pública – CTCP. (2006). Norma Internacional de Contabilidad 7: Estados de flujos de efectivo. ',
+        'Consejo Técnico de la Contaduría Pública - CTCP. (2006). Norma Internacional de Contabilidad 7: Estados de flujos de efectivo. ',
       link:
         ' https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534368973-9784',
     },
@@ -367,10 +377,6 @@ export default {
       referencia:
         'IFRS Foundation. (2009). Módulo 5: estado del resultado integral y estado de resultados. IFRS Publications. ',
       link: '',
-    },
-    {
-      referencia: 'NIC NIIF (2009). NIIF para las pymes. ',
-      link: 'https://www.nicniif.org/home/normas/niif-para-las-pymes.html',
     },
     {
       referencia:

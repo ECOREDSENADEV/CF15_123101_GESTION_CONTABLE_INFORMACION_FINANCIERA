@@ -54,14 +54,14 @@
               h3.mb-1.bg-color-25 Estado de Flujos de Efectivo.
               p.text-white Es importante profundizar la norma, por tanto, se invita a explorar el siguiente enlace de la NIC 7: 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534368973-9784" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
     separador
 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1.	Identificación
+      h2 4.1	Identificación
 
     .row.mb-5
       .col-lg-6.mb-3.mb-lg-0.order-lg-2
@@ -128,19 +128,19 @@
                   figure
                     img(src='@/assets/curso/temas/tema4/5.svg', alt='Texto que describa la imagen')
 
-              p 27. Los flujos de efectivo en moneda extranjera se presentarán de acuerdo con la NIC 21 Efectos de las Variaciones en las Tasas de Cambio de la Moneda Extranjera.
+              p 27. Los flujos de efectivo en moneda extranjera se presentarán de acuerdo con la NIC 21 efectos de las variaciones en las tasas de cambio de la moneda extranjera.
     
         separador
 
         #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.2.	Período contable sobre el que se informa
+          h2 4.2	Período contable sobre el que se informa
         
         p El estado de flujos de efectivo se presenta de acuerdo con los requerimientos normativos en el periodo contable previsto, donde se incorporan las actividades de inversión, de financiación y de operación. 
 
         separador
 
         #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.3.	Elementos para elaborar el flujo de efectivo
+          h2 4.3	Elementos para elaborar el flujo de efectivo
         
         p Para realizar el estado de flujos de efectivo, es importante identificar claramente los elementos con el fin de proceder con su correcta clasificación y, posteriormente, elaboración. Las actividades que se presentan son (CTCP, 2020):
 
@@ -166,7 +166,7 @@
     separador
 
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.4.	Métodos de presentación
+      h2 4.4	Métodos de presentación
     
     p.mb-5 En la elaboración y presentación del estado de flujos de efectivo se tienen en cuenta los siguientes métodos (CTCP, 2020):
 
@@ -247,7 +247,7 @@
               p.mb-0 Intereses recibidos.
 
     div.bg-color-4.tarjeta.px-4.py-3.mb-5
-      h4.mb-0 Actividades de financiación.
+      h4.mb-0 Actividades de financiación
     
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0.order-lg-2
@@ -287,7 +287,7 @@
     separador
 
     #t_4_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.5.	Estructura
+      h2 4.5	Estructura
 
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0.order-lg-2
@@ -308,16 +308,16 @@
               p.mb-0 Actividades de financiación. 
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 Saldo Año Anterior (de caja, caja menor, bancos, corporaciones de ahorro e inversiones temporales que son los CDT del año anterior). 
+              p.mb-0 Saldo año anterior (de caja, caja menor, bancos, corporaciones de ahorro e inversiones temporales que son los CDT del año anterior). 
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 Saldo Presente Año (de caja, caja menor, bancos, corporaciones de ahorro e inversiones temporales que son los CDT del presente año). 
+              p.mb-0 Saldo presente año (de caja, caja menor, bancos, corporaciones de ahorro e inversiones temporales que son los CDT del presente año). 
     
     p.mb-5 A continuación, observa la estructura de cada uno de los métodos analizados anteriormente:
 
     .row
       .col-lg-4
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fecored-sena.github.io%2FCF15_GESTION_CONTABLE%2Fdownloads%2Festado-flujos-efectivo-directo-indirecto.xls&wdOrigin=BROWSELINK" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
@@ -336,38 +336,40 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2.
+          span Estado de flujo de efectivo - Actividades de operación
         .tabla-b.color-acento-contenido
           table
-            caption Leyenda de la tabla
             thead.bg-color-27
               tr
                 th Actividades de operación
-                th 
+                th Valor
             tbody
               tr
                 td Recaudo de clientes
-                td  $10.000.000
+                td.text-end.px-3  $10.000.000
               tr
                 td (-) Pagos laborales
-                td  $2.000.000
+                td.text-end.px-3  $2.000.000
               tr
                 td (-) Pago proveedores
-                td  $3.000.000
+                td.text-end.px-3  $3.000.000
               tr
                 td (-) Pago gastos
-                td  $1.000.000
+                td.text-end.px-3  $1.000.000
               tr
                 td (-) Pago costos
-                td  $1.500.000
+                td.text-end.px-3  $1.500.000
               tr
                 td (-) Pago impuestos
-                td  $500.000
+                td.text-end.px-3  $500.000
               tr
                 td (-) Pago gastos financieros
-                td  $500.000
+                td.text-end.px-3  $500.000
               tr
                 td Efectivo generado en actividades de operación
-                td $1.500.000
+                td.text-end.px-3 $1.500.000
     
     p.mb-5 Para calcular el recaudo de cliente se tiene en cuenta la información de los estados financieros:
 
@@ -422,25 +424,28 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 3.
+          span Estado de flujo de efectivo - Efectivo Recaudado Clientes
         .tabla-b.color-acento-contenido
           table
             thead.bg-color-27
               tr
                 th Efectivo Recaudado Clientes
-                th 
+                th Valor
             tbody
               tr
                 td Ingresos ordinarios
-                td $12.000.000
+                td.text-end.px-3 $12.000.000
               tr
                 td + Saldo clientes año 1
-                td  $ 5.000.000
+                td.text-end.px-3  $ 5.000.000
               tr
                 td - Saldo clientes año 2
-                td  $ 7.000.000
+                td.text-end.px-3  $ 7.000.000
               tr
                 td Total recaudo de clientes 
-                td  $10.000.000
+                td.text-end.px-3  $10.000.000
     
 
     .row.justify-content-center.mb-5
@@ -457,28 +462,32 @@
     
     .row.mb-5.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 4.
+          span Estado de flujo de efectivo - Actividades de inversión
+        
         .tabla-b.color-acento-contenido
           table
             thead.bg-color-27
               tr
                 th Actividades de inversión
-                th 
+                th Valor
             tbody
               tr
                 td Efectivo recibido por venta de inversiones
-                td  $7.000.000
+                td.text-end.px-3  $7.000.000
               tr
                 td + Efectivo recibido por venta de vehículo 
-                td   $2.000.000
+                td.text-end.px-3   $2.000.000
               tr
                 td (-) Pago compra equipo de oficina
-                td   $8.000.000
+                td.text-end.px-3   $8.000.000
               tr
                 td (-) Pago compra de maquinaria
-                td  $1.000.000
+                td.text-end.px-3  $1.000.000
               tr
                 td Efectivo generado en actividades de inversión
-                td  $0
+                td.text-end.px-3  $0
 
     .row.justify-content-center.mb-5
       .col-lg-10  
@@ -494,28 +503,31 @@
     
     .row.mb-5.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 5.
+          span Estado de flujo de efectivo - Actividades de financiación
         .tabla-b.color-acento-contenido
           table
             thead.bg-color-27
               tr
                 th Actividades de financiación
-                th 
+                th Valor
             tbody
               tr
                 td Emisión de acciones
-                td  $5.000.000
+                td.text-end.px-3  $5.000.000
               tr
                 td + Efectivo recibido por venta de bonos
-                td  $3.000.000
+                td.text-end.px-3  $3.000.000
               tr
                 td (-) Pago de obligaciones financieras
-                td   $6.000.000
+                td.text-end.px-3   $6.000.000
               tr
                 td (-) Pago de participaciones
-                td   $2.500.000
+                td.text-end.px-3   $2.500.000
               tr
                 td Efectivo generado en actividades de financiación
-                td.bg-color-20  $500.000
+                td.text-end.px-3.bg-color-20  $500.000
 
     .row.justify-content-center.mb-5
       .col-lg-10  
@@ -531,31 +543,41 @@
     
     .row.mb-5.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 6.
+          span Estado de flujo de efectivo
         .tabla-b.color-acento-contenido
           table
             thead.bg-color-27
               tr
                 th Actividades de financiación
-                th 
+                th Valor
             tbody
               tr
                 td Efectivo generado en actividades de operación
-                td $1.500.000
+                td.text-end.px-3 $1.500.000
               tr
                 td Efectivo generado en actividades de inversión
-                td  $0
+                td.text-end.px-3  $0
               tr
                 td Efectivo generado en actividades de financiación
-                td.bg-color-20 $500.000
+                td.text-end.px-3.bg-color-20 $500.000
               tr
                 td Flujo total de efectivo.
-                td   $1.000.000
+                td.text-end.px-3   $1.000.000
               
 
     .row.justify-content-center.mb-5
       .col-lg-10  
         div.bg-color-9.p-4.tarjeta
-          p.mb-0 A continuación, observa un ejemplo por el método directo, donde se presenta la estructura y variaciones de las actividades de operación, inversión y financiación.
+          p.mb-5 A continuación, observa un ejemplo por el método directo, donde se presenta la estructura y variaciones de las actividades de operación, inversión y financiación.
+          .row
+            .col-lg-6
+              a.anexo.mb-4(:href="obtenerLink('/downloads/estados-flujo.xls')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-xls.svg")
+                .anexo__texto
+                  p <b>Anexo.</b> Estado de flujo de efectivo por los años terminados en dciembre 31.
           
 </template>
 

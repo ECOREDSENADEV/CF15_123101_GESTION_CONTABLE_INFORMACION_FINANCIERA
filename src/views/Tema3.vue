@@ -29,27 +29,23 @@
                 li.d-flex
                   .lista-ol--cuadro__vineta
                     span A
-                  | El resultado integral total del periodo, mostrando de forma separada los importes totales atribuibles a los propietarios de la controladora y los atribuibles a las participaciones no controladoras; 
+                  | El resultado integral total del periodo, mostrando de forma separada los importes totales atribuibles a los propietarios de la controladora y los atribuibles a las participaciones no controladoras.
                 li.d-flex
                   .lista-ol--cuadro__vineta
                     span B
-                  | Para cada componente de patrimonio, los efectos de la aplicación retroactiva o la reexpresión retroactiva reconocidos según la NIC 8; y 
+                  | Para cada componente de patrimonio, los efectos de la aplicación retroactiva o la reexpresión retroactiva reconocidos según la NIC 8.
                 li.d-flex
                   .lista-ol--cuadro__vineta
                     span C
-                  | [Eliminado]
-                li.d-flex
-                  .lista-ol--cuadro__vineta
-                    span d
-                  | para cada componente del patrimonio, una conciliación entre los importes en libros, al inicio y al final del periodo, revelando por separado (como mínimo) los cambios resultantes de: 
+                  | para cada componente del patrimonio, una conciliación entre los importes en libros, al inicio y al final del periodo, revelando por separado (como mínimo) los cambios resultantes de. 
 
                 ul.ms-4.lista-ul--color
                   li.mb-0.d-flex
                     i.fas.fa-check-circle.bg-color-14
-                    p.mb-0 El resultado del periodo; 
+                    p.mb-0 El resultado del periodo.
                   li.mb-0.d-flex
                     i.fas.fa-check-circle.bg-color-14
-                    p.mb-0 Otro resultado integral; y 
+                    p.mb-0 Otro resultado integral. 
                   li.mb-0.d-flex
                     i.fas.fa-check-circle.bg-color-14
                     p.mb-0 Transacciones con los propietarios en su calidad de tales, mostrando por separado las contribuciones realizadas por los propietarios y las distribuciones a éstos y los cambios en las participaciones de propiedad en subsidiarias que no den lugar a una pérdida de control (CTCP, 2020).
@@ -61,7 +57,7 @@
     separador
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.1.	Identificación  
+      h2 3.1	Identificación  
 
     .row.mb-5
       .col-lg-6.mb-3.mb-lg-0.order-lg-2
@@ -143,7 +139,7 @@
     separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2.	Periodo contable sobre el que se informa
+      h2 3.2	Periodo contable sobre el que se informa
     
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5  
       .bloque-texto-g__img(
@@ -155,7 +151,7 @@
     separador
     
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3.	Principio del ente en marcha 
+      h2 3.3	Principio del ente en marcha 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/10.png')})`}"
@@ -166,7 +162,7 @@
     separador
     
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.4.	Estructura
+      h2 3.4	Estructura
 
     p.mb-5 El estado de cambios en el patrimonio neto muestra las variaciones que sufren los diferentes elementos que componen el patrimonio de la empresa en determinado periodo, que puede ser mensual, bimestral, trimestral, cuatrimestral, semestral y por lo menos una vez al año con corte al año a 31 de diciembre.
 
@@ -177,7 +173,7 @@
       .col-lg-8.order-1.mb-3.mb-lg-0
         .bg-color-1.p-4(data-aos="fade-left")
           p Las empresas presentarán del estado de cambio en el patrimonio neto comparado a los usuarios internos y/o externos según el caso:
-          a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.anexo.mb-4(href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fecored-sena.github.io%2FCF15_GESTION_CONTABLE%2Fdownloads%2Festructura-estado-cambio-patrimonio.xls&wdOrigin=BROWSELINK " target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-xls.svg")
             .anexo__texto
@@ -247,12 +243,15 @@
 
     .row.mb-5.justify-content-center
       .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 1.
+          span Estado de cambios en el patrimonio de la Empresa Distribuidora, S. A.
         .tabla-b.color-acento-contenido
           .tabla-b__header
-            h4.mb-0 Empresa Distribuidora, S.A Estado de Cambios en el Ptrimonio  Por los Períodos terminados en Diciembre 31
+            h4.mb-0 Empresa Distribuidora, S.A estado de cambios en el patrimonio por los períodos terminados en diciembre 31
             p Expreso en miles de pesos
           table
-            caption Leyenda de la tabla
+            caption Nota. Tomada de Estupiñán (2017).
             thead.bg-color-27
               tr
                 th 
@@ -264,7 +263,7 @@
                 th Total
             thead.bg-color-23
               tr
-                th Cambios en el patrimonio
+                th(width="30%") Cambios en el patrimonio
                 th Capital
                 th Reservas
                 th Patrimonio
@@ -274,20 +273,20 @@
             tbody
               tr
                 td Saldo a diciembre 31 del Año 0
-                td 1,500,000
-                td 136,424
-                td 1,903,317
-                td -289,371
-                td 6,579,253
-                td 9,829,623
+                td.text-end.px-3 1,500,000
+                td.text-end.px-3 136,424
+                td.text-end.px-3 1,903,317
+                td.text-end.px-3 -289,371
+                td.text-end.px-3 6,579,253
+                td.text-end.px-3 9,829,623
               tr
                 td Revalorización patrimonio del año
                 td
                 td
-                td 252,700
+                td.text-end.px-3 252,700
                 td
                 td
-                td 252,700
+                td.text-end.px-3 252,700
               tr
                 td Creación de Reserva Legal
                 td
@@ -295,7 +294,7 @@
                 td
                 td
                 td
-                td 0
+                td.text-end.px-3 0
               tr
                 td Pago de dividendos
                 td
@@ -303,47 +302,47 @@
                 td
                 td
                 td
-                td 0
+                td.text-end.px-3 0
               tr
                 td Ajuste a las valorizaciones
                 td
                 td
                 td
                 td
-                td 562,166
-                td 562,166
+                td.text-end.px-3 562,166
+                td.text-end.px-3 562,166
               tr
                 td Utilidad del ejercicio
                 td
                 td
                 td
-                td 173,369
+                td.text-end.px-3 173,369
                 td
-                td 173,369
+                td.text-end.px-3 173,369
               tr
                 td Saldo a diciembre 31 del Año 1
-                td 1,500,000
-                td 136,424
-                td 2,156,017
-                td -116,002
-                td 7,141,419
-                td 10,817,858
+                td.text-end.px-3 1,500,000
+                td.text-end.px-3 136,424
+                td.text-end.px-3 2,156,017
+                td.text-end.px-3 -116,002
+                td.text-end.px-3 7,141,419
+                td.text-end.px-3 10,817,858
               tr
                 td Revalorización patrimonio del año
                 td
                 td
-                td 258,063
+                td.text-end.px-3 258,063
                 td
                 td
-                td 258,063
+                td.text-end.px-3 258,063
               tr
                 td Creación de Reserva Legal
                 td
-                td 17,337
+                td.text-end.px-3 17,337
                 td
-                td -17,337
+                td.text-end.px-3 -17,337
                 td
-                td 0
+                td.text-end.px-3 0
               tr
                 td Pago de dividendos
                 td
@@ -351,36 +350,36 @@
                 td
                 td
                 td
-                td 0
+                td.text-end.px-3 0
               tr
                 td Ajuste a las valorizaciones
                 td
                 td
                 td
                 td
-                td 1,269,904
-                td 1,269,904
+                td.text-end.px-3 1,269,904
+                td.text-end.px-3 1,269,904
               tr
                 td Utilidad del ejercicio
                 td
                 td
                 td
-                td 331,684
+                td.text-end.px-3 331,684
                 td
-                td 331,684
+                td.text-end.px-3 331,684
               tr.text-bold
                 td Saldo a diciembre 31 del año 2
-                td 1,500,000
-                td 153,761
-                td 2,414,080
-                td 198,345
-                td 8,411,323
-                td 12,677,509
+                td.text-end.px-3 1,500,000
+                td.text-end.px-3 153,761
+                td.text-end.px-3 2,414,080
+                td.text-end.px-3 198,345
+                td.text-end.px-3 8,411,323
+                td.text-end.px-3 12,677,509
            
     separador
 
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.5.	Información a revelar
+      h2 3.5	Información a revelar
 
     .row.mb-5
       .col-lg-6.mb-3.mb-lg-0.order-lg-2
@@ -393,23 +392,23 @@
             li.d-flex
               .lista-ol--cuadro__vineta
                 span A
-              | El resultado integral total del periodo, mostrando de forma separada los importes totales atribuibles a los propietarios de la controladora y los atribuibles a las participaciones no controladoras
+              | El resultado integral total del periodo, mostrando de forma separada los importes totales atribuibles a los propietarios de la controladora y los atribuibles a las participaciones no controladoras.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span B
-              | Para cada componente de patrimonio, los efectos de la aplicación retroactiva o la reexpresión retroactiva reconocidos según la NIC 8 
+              | Para cada componente de patrimonio, los efectos de la aplicación retroactiva o la reexpresión retroactiva reconocidos según la NIC 8. 
             li.d-flex
               .lista-ol--cuadro__vineta
                 span C
-              | Para cada componente del patrimonio, una conciliación entre los importes en libros, al inicio y al final del periodo, revelando por separado (como mínimo) los cambios resultantes de: 
+              | Para cada componente del patrimonio, una conciliación entre los importes en libros, al inicio y al final del periodo, revelando por separado (como mínimo) los cambios resultantes de. 
 
             ul.ms-4.lista-ul--color
               li.mb-0.d-flex
                 i.fas.fa-check-circle.bg-color-14
-                p.mb-0 El resultado del periodo 
+                p.mb-0 El resultado del periodo. 
               li.mb-0.d-flex
                 i.fas.fa-check-circle.bg-color-14
-                p.mb-0 Otro resultado integral
+                p.mb-0 Otro resultado integral.
               li.mb-0.d-flex
                 i.fas.fa-check-circle.bg-color-14
                 p.mb-0 Transacciones con los propietarios en su calidad de tales, mostrando por separado las contribuciones realizadas por los propietarios y las distribuciones a éstos y los cambios en las participaciones de propiedad en subsidiarias que no den lugar a una pérdida de control. Información para presentar en el estado de cambios en el patrimonio o en las notas. (NIC 1. 106).

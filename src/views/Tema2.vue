@@ -25,7 +25,7 @@
         separador
 
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 2.1.	Identificación
+          h2 2.1	Identificación
         
         p.mb-5 El estado de situación financiera se presenta de forma comprensible y debe ser identificable, teniendo en cuenta los estándares internacionales, el cual reflejará la siguiente información según CTCP (2020):
 
@@ -89,7 +89,7 @@
     separador
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.2.	Período contable sobre el que se informa
+      h2 2.2	Período contable sobre el que se informa
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5  
       .bloque-texto-g__img(
@@ -101,7 +101,7 @@
     separador
     
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3.	Principio del ente en marcha
+      h2 2.3	Principio del ente en marcha
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -113,7 +113,7 @@
     separador
     
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.4.	Distinción entre corriente y no corriente
+      h2 2.4	Distinción entre corriente y no corriente
     
     p.mb-5 La entidad presentará la información corriente o no corriente, determinado por el periodo sujeto a verificación y análisis.
 
@@ -148,21 +148,21 @@
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 Espera liquidar el pasivo en su ciclo normal de operación; 
+              p.mb-0 Espera liquidar el pasivo en su ciclo normal de operación.
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 Mantiene el pasivo principalmente con fines de negociación; 
+              p.mb-0 Mantiene el pasivo principalmente con fines de negociación. 
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 El pasivo debe liquidarse dentro de los doce meses siguientes a la fecha del periodo sobre el que se informa; o 
+              p.mb-0 El pasivo debe liquidarse dentro de los doce meses siguientes a la fecha del periodo sobre el que se informa.
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 No tiene un derecho incondicional para aplazar la cancelación del pasivo durante, al menos, los doce meses siguientes a la fecha del periodo sobre el que se informa (véase el párrafo 73). Las condiciones de un pasivo que puedan dar lugar, a elección de la otra parte, a su liquidación mediante la emisión de instrumentos de patrimonio, no afectan a su clasificación. Una entidad clasificará todos los demás pasivos como no corrientes (CTCP, 2020):
+              p.mb-0 No tiene un derecho incondicional para aplazar la cancelación del pasivo durante, al menos, los doce meses siguientes a la fecha del periodo sobre el que se informa (véase el párrafo 73). Las condiciones de un pasivo que puedan dar lugar, a elección de la otra parte, a su liquidación mediante la emisión de instrumentos de patrimonio, no afectan a su clasificación. Una entidad clasificará todos los demás pasivos como no corrientes (CTCP, 2020).
     
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5.	Cuentas del Estado de situación financiera
+      h2 2.5	Cuentas del estado de situación financiera
 
     .row.mb-5.justify-content-center
       .col-md-10.mb-5.mb-md-0
@@ -256,7 +256,7 @@
                 p.mb-0 Capital.
               li.mb-0.d-flex
                 i.fas.fa-check-circle.bg-color-14
-                p.mb-0 Capital emitido..
+                p.mb-0 Capital emitido.
               li.mb-0.d-flex
                 i.fas.fa-check-circle.bg-color-14
                 p.mb-0 Reserva de capital. 
@@ -273,7 +273,7 @@
     separador
     
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.6.	Estructura
+      h2 2.6	Estructura
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -283,7 +283,7 @@
         p.mb-0 Hace referencia al contenido del estado financiero teniendo en cuenta las directrices de elaboración, este se presenta por liquidez o solvencia, el cual se explicará a continuación en la forma de presentación y se diferenciará.
     
     #t_2_7.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.7.	Forma de presentación
+      h2 2.7 Forma de presentación
   
     .row.mb-5
       .col-lg-6.mb-3.mb-lg-0.order-lg-2
@@ -295,7 +295,7 @@
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 Encabezado
+              p.mb-0 Encabezado.
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
               p.mb-0 Razón social (nombre de la empresa).
@@ -304,7 +304,7 @@
               p.mb-0 Nombre del Informe (Estado de situación financiera). Individual (cuando hace referencia a una empresa sola) o Consolidado (hace referencia cuando son matriz filial o subsidiaria).
             li.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 Fecha o período de presentación (se determina desde enero de 20__(año), febrero de 20__(año), marzo de 20__(año), abril de 20__(año), mayo de 20__(año), junio de 20__(año), julio de 20__(año), agosto de 20__(año), septiembre de 20__(año), octubre de 20__(año), noviembre de 20__(año), o diciembre de 20__(año)). 
+              p.mb-0 Fecha o período de presentación, se determina desde enero de 20__(año), febrero de 20__(año), marzo de 20__(año), abril de 20__(año), mayo de 20__(año), junio de 20__(año), julio de 20__(año), agosto de 20__(año), septiembre de 20__(año), octubre de 20__(año), noviembre de 20__(año), o diciembre de 20__(año). 
     
     p.mb-5 Luego se relaciona el cuerpo del informe con las cuentas que lo componen: 
     
@@ -312,89 +312,89 @@
       .col-lg-4
         div.bg-color-27.p-3
           h5.text-center.mb-0 Cuentas del activo 
-        div.bg-color-9.p-3
+        div.bg-color-9.p-3.h-100
           ol.lista-ol
             li.d-flex 
-              span.text-bold 1.1 
+              span.text-bold 11 
               | Efectivo y equivalentes al efectivo. 
             li.d-flex 
-              span.text-bold 1.2
+              span.text-bold 12
               | Activos financieros. 
             li.d-flex 
-              span.text-bold 1.3 
+              span.text-bold 13 
               | Cuentas comerciales por cobrar. 
             li.d-flex 
-              span.text-bold 1.4 
+              span.text-bold 14 
               | Inventarios. 
             li.d-flex 
-              span.text-bold 1.5 
+              span.text-bold 15 
               | Propiedades, planta y equipo.
             li.d-flex 
-              span.text-bold 1.6
+              span.text-bold 16
               | Activos intangibles y plusvalía (crédito mercantil).
             li.d-flex 
-              span.text-bold 1.7 
+              span.text-bold 17 
               | Activos por impuestos corrientes. 
             li.d-flex 
-              span.text-bold 1.8 
+              span.text-bold 18 
               | Propiedades de inversión.
             li.d-flex 
-              span.text-bold 1.9 
+              span.text-bold 19 
               | Propiedades de inversión. 
       .col-lg-4
         div.bg-color-27.p-3
           h5.text-center.mb-0 Cuentas del pasivo  
-        div.bg-color-9.p-3
+        div.bg-color-9.p-3.h-100
           ol.lista-ol
             li.d-flex 
-              span.text-bold 2.1 
+              span.text-bold 21 
               | Obligaciones financieras e instrumentos derivados. 
             li.d-flex 
-              span.text-bold 2.2
+              span.text-bold 22
               | Cuentas comerciales por pagar y cuentas por pagar.  
             li.d-flex 
-              span.text-bold 2.3 
+              span.text-bold 23 
               | Pasivos por impuestos corrientes. 
             li.d-flex 
-              span.text-bold 2.4 
+              span.text-bold 24 
               | Obligaciones laborales y de seguridad social.
             li.d-flex 
-              span.text-bold 2.5 
+              span.text-bold 25 
               | Provisiones.
             li.d-flex 
-              span.text-bold 2.6
+              span.text-bold 26
               | Ingresos diferidos.
             li.d-flex 
-              span.text-bold 2.7 
+              span.text-bold 27 
               | Pasivos incluidos en grupos de activos para su disposición clasificados como mantenidos para la venta. 
             li.d-flex 
-              span.text-bold 2.8 
+              span.text-bold 28 
               | Otros pasivos.
       .col-lg-4
         div.bg-color-27.p-3
           h5.text-center.mb-0 Cuentas del patrimonio  
-        div.bg-color-9.p-3
+        div.bg-color-9.p-3.h-100
           ol.lista-ol
             li.d-flex 
-              span.text-bold 3.1 
+              span.text-bold 31 
               | Capital social.
             li.d-flex 
-              span.text-bold 3.2
+              span.text-bold 32
               | Superávit de capital. 
             li.d-flex 
-              span.text-bold 3.3 
+              span.text-bold 33 
               | Reservas. 
             li.d-flex 
-              span.text-bold 3.4 
+              span.text-bold 34 
               | Dividendos y participaciones.
             li.d-flex 
-              span.text-bold 3.5 
+              span.text-bold 35 
               | Resultados del ejercicio.
             li.d-flex 
-              span.text-bold 3.6
+              span.text-bold 36
               | Resultado del ejercicio anteriores.
     
-    div.bg-color-4.tarjeta.px-4.py-3.mb-5
+    div.bg-color-4.tarjeta.px-4.py-3.mb-5.mt-5
       h4.mb-0 Aspectos jurídicos
     
     .row.mb-5
@@ -425,34 +425,44 @@
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
-        .tarjeta--boton.bg-color-22.p-4.h-100
+        .tarjeta--boton.bg-color-8.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
               figure
                 img(src='@/assets/curso/temas/tema2/14.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Por liquidez
-          p  Es una cualidad que tienen los activos que figuran en el estado de situación financiera de un ente económico para convertirse en dinero de forma fácil. El estado se presenta de la siguiente forma:
-
+          h3 Por liquidez
+          p.mb-5  Es una cualidad que tienen los activos que figuran en el estado de situación financiera de un ente económico para convertirse en dinero de forma fácil. El estado se presenta de la siguiente forma:
+          a.anexo.mb-4(href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fecored-sena.github.io%2FCF15_GESTION_CONTABLE%2Fdownloads%2Fpresentacion-por-liquidez.xls&wdOrigin=BROWSELINK" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-xls.svg")
+            .anexo__texto
+              p <b>Anexo.</b> Presentación por liquidez.
+          
       .col-sm-6.col-lg-5.mb-4.mb-lg-0
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
-        .tarjeta--boton.bg-color-22.p-4.h-100
+        .tarjeta--boton.bg-color-1.p-4.h-100
           .row.justify-content-center.mb-3
             .col-5
               figure
                 img(src='@/assets/curso/temas/tema2/15.svg', alt='Texto que describa la imagen')
 
-          h3.text-center Por solvencia
+          h3 Por solvencia
           p La solvencia es la capacidad de un individuo o empresa para atender sus compromisos de pago con los acreedores, es decir, sus deudas.
           h5 Se identifica de la siguiente manera:
         
-          a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.anexo.mb-4(href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fecored-sena.github.io%2FCF15_GESTION_CONTABLE%2Fdownloads%2Fpresentacion-por-solvencia.xls&wdOrigin=BROWSELINK" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-xls.svg")
             .anexo__texto
-              p <b>Anexo.</b> Estado de resultados por naturaleza de los gastos.
+              p <b>Anexo.</b> Presentación por solvencia.
+          a.anexo.mb-4(href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fecored-sena.github.io%2FCF15_GESTION_CONTABLE%2Fdownloads%2Fejemplo-estado-situacion-financiera.xls&wdOrigin=BROWSELINK" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-xls.svg")
+            .anexo__texto
+              p <b>Anexo.</b> Ejemplo estado de situación financiera.
     
     .row.mb-5.justify-content-center
       .col-lg-10  
@@ -473,7 +483,7 @@
     separador
 
     #t_2_8.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.8.	Información a revelar
+      h2 2.8	Información a revelar
   
     .row.mb-5
       .col-lg-6.mb-3.mb-lg-0.order-lg-2

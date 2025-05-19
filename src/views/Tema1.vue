@@ -17,16 +17,16 @@
         .row.mb-5.justify-content-center
           .col-lg-4.mb-3.mb-lg-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 1
+              h5 Figura 1.
               span Estado de resultado con utilidad
             figure
-              img(src="@/assets/curso/temas/tema1/1.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema1/1.svg", data-aos="zoom-in", alt="Gráfico de barras sobre un estado de resultado con utilidad que compara los ingresos, gastos, costos y utilidad. La barra de ingresos es la más alta, seguida por las de gastos y costos, mientras que la utilidad es significativamente menor.")
           .col-lg-4.mb-3.mb-lg-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 2
+              h5 Figura 2.
               span Estado de resultado con pérdida
             figure
-              img(src="@/assets/curso/temas/tema1/2.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema1/2.svg", data-aos="zoom-in", alt="Gráfico de barras sobre un estado de resultado con pérdida que representa ingresos, gastos, costos y pérdida. Los ingresos superan individualmente a los gastos y costos, pero la barra de pérdida aparece en valor negativo, indicando un resultado final desfavorable.")
         
         p.mb-5 Los elementos del estado de resultados son: 
 
@@ -144,7 +144,7 @@
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.3.	Principio del ente en marcha
+      h2 1.3	Principio del ente en marcha
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -156,7 +156,7 @@
     separador
 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.4.	Aspectos generales
+      h2 1.4	Aspectos generales
     
     .bg-full-width.bg-color-2
       .px-4.px-md-5.pb-md-3
@@ -173,7 +173,7 @@
         separador
 
         #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 1.5. Cuentas Otro Resultado Integral (ORI) 
+          h2 1.5 Cuentas otro resultado integral (ORI) 
         
         p.mb-5 En la sección 5 de la Norma NIIF para pymes (pequeñas y medianas empresas) del grupo 2 de presentación de información financiera, se hace énfasis en el reconocimiento de los tipos de otros resultados integrales (NIC/NIIF, 2020):
 
@@ -212,8 +212,10 @@
           .bloque-texto-b.color-secundario.p-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              h4.mb-0 Si una entidad no tiene partidas de otro resultado integral en ninguno de los periodos para los que se presentan estados financieros, puede presentar solo un estado de resultados o un estado del resultado integral en el que la última línea se denomine resultado (NIC/NIIF, 2020, p. 29).
+              h4.mb-0 Si una entidad no tiene partidas de otro resultado integral en ninguno de los periodos para los que se presentan estados financieros, puede presentar solo un estado de resultados o un estado del resultado integral en el que la última línea se denomine resultado 
               i.fas.fa-quote-right
+            .bloque-texto-d__autor 
+              p.mb-0 (NIC/NIIF, 2020, p. 29).
           p Para profundizar sobre la temática, se recomienda explorar el siguiente enlace: 
 
           a.anexo.mb-4.mb-lg-0(href="https://www.nicniif.org/home/normas/niif-para-las-pymes.html" target="_blank")
@@ -224,7 +226,7 @@
     
     p En la Norma Internacional de Contabilidad (NIC) 1, aplicable al grupo 1 (NIIF plenas) de presentación de información financiera, se determina que (CTCP, 2020):
 
-    p.mb-5 Los componentes de otro resultado integral incluyen: 
+    h5.mb-5 Los componentes de otro resultado integral incluyen: 
 
     .tarjeta.bg-fondo-1.p-4.mb-5
       //- PasosB debe ir acompañado de una de una de estas clases => 
@@ -250,7 +252,7 @@
               img(src='@/assets/curso/temas/tema1/20.svg', style="max-width: 90px", alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
-            p Las ganancias y pérdidas procedentes de inversiones en instrumentos de patrimonio designados a valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 5.7.5 de la NIIF 9 Instrumentos Financieros; (da) las ganancias y pérdidas sobre activos financieros medidos al valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 4.1.2A de la NIIF 9. 
+            p Las ganancias y pérdidas procedentes de inversiones en instrumentos de patrimonio designados a valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 5.7.5 de la NIIF 9. Instrumentos Financieros; (da) las ganancias y pérdidas sobre activos financieros medidos al valor razonable con cambios en otro resultado integral de acuerdo con el párrafo 4.1.2A de la NIIF 9. 
 
           .col-md-auto
             figure
@@ -269,7 +271,7 @@
               img(src='@/assets/curso/temas/tema1/23.svg', style="max-width: 90px", alt='Texto que describa la imagen')
         .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
-            p Los cambios en el valor temporal de las opciones al separar el valor intrínseco y el valor temporal de un contrato de opción y la designación como el instrumento de cobertura solo de los cambios en el valor intrínseco (véase el Capítulo 6 de la NIIF 9)
+            p Los cambios en el valor temporal de las opciones al separar el valor intrínseco y el valor temporal de un contrato de opción y la designación como el instrumento de cobertura solo de los cambios en el valor intrínseco (véase el Capítulo 6 de la NIIF 9).
           .col-md-auto
             figure
               img(src='@/assets/curso/temas/tema1/24.svg', style="max-width: 90px", alt='Texto que describa la imagen')
@@ -284,14 +286,14 @@
     separador
 
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.6.	Estructura
+      h2 1.6	Estructura
         
     p.mb-5 Hace referencia al contenido y forma de presentación del estado de resultados integral. 
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
-        h3.titulo-con-imagen__texto Estructura del Estado de resultados Integral
+        h3.titulo-con-imagen__texto Estructura del estado de resultados integral
       
     .row.mb-5
       .col-lg-6.mb-3.mb-lg-0.order-lg-2
@@ -343,18 +345,13 @@
               i.fas.fa-check-circle.bg-color-14
               p.mb-0 Resultado de ejercicio.
     
-    .row.mb-5
+    .row.mb-5.align-items-center
       .col-lg-6.mb-3.mb-lg-0.order-lg-2
         figure
           img(src="@/assets/curso/temas/tema1/28.png", data-aos="zoom-in")
       .col-lg-6.order-lg-1
-        p Se invita a revisar los siguientes enlaces para ampliar los conceptos:
-        a.anexo.mb-3(href="https://actualicese.com/diferencias-entre-el-estado-de-resultados-y-el-estado-de-resultado-integral-estandar-para-pymes/ " target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p <b>Enlace web</b>. Diferencias entre el estado de resultados y el estado del resultado integral: Estándar para Pymes.
-
+        p Se invita a revisar el siguiente enlace para ampliar los conceptos:
+        
         a.anexo.mb-4.mb-lg-0(href="https://www.gerencie.com/formas-de-presentacion-del-estado-de-resultados.html" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
@@ -364,7 +361,7 @@
     separador
 
     #t_1_7.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.7.	Forma de presentación
+      h2 1.7	Forma de presentación
     
     p.mb-5 Está compuesto por el encabezado, cuerpo del informe y la parte jurídica, a saber:
 
@@ -375,11 +372,11 @@
         LineaTiempoD.color-secundario
           div(numero="1" titulo="Encabezado").p-4
             .titulo-sexto.color-acento-contenido
-              h5 Figura 3
+              h5 Figura 3.
               span Encabezado
             figure.mb-5
-              img(src="@/assets/curso/temas/tema1/29.png", data-aos="zoom-in")
-
+              img(src="@/assets/curso/temas/tema1/29.png", data-aos="zoom-in", alt="Tabla con formato multicolumna que detalla un estado de resultados integral, incluyendo ingresos ordinarios, costos, gastos operativos, resultados financieros, beneficios o pérdidas antes y después de impuestos, operaciones discontinuadas y resultado del ejercicio. Cada columna representa diferentes periodos o entidades comparativas.")
+              figcaption Fuente. Tomada de Godoy (2014).
             ul.lista-ul--color
               li.mb-0.d-flex
                 i.fas.fa-check-circle.bg-color-14
@@ -399,11 +396,11 @@
           
           div(numero="2" titulo="Cuerpo del informe").p-4
             .titulo-sexto.color-acento-contenido
-              h5 Figura 4
+              h5 Figura 4.
               span Cuerpo del informe
             figure.mb-5
-              img(src="@/assets/curso/temas/tema1/30.png", data-aos="zoom-in")
-            
+              img(src="@/assets/curso/temas/tema1/30.svg", data-aos="zoom-in", alt="Tabla comparativa de un estado de resultados integral con múltiples columnas que agrupan ingresos, costos, gastos operativos, resultados financieros, impuestos y beneficio o pérdida del ejercicio.")
+              figcaption Fuente. Tomada de Godoy (2014).
             p Seguidamente se presenta el cuerpo del informe, teniendo en cuenta la información que recopila el estado de resultado integral, compuestos por:
 
             ul.lista-ul--color
@@ -436,11 +433,11 @@
           
           div(numero="3" titulo="Parte jurídica").p-4
             .titulo-sexto.color-acento-contenido
-              h5 Figura 5
+              h5 Figura 5.
               span Cuerpo del informe
             figure.mb-5
-              img(src="@/assets/curso/temas/tema1/31.png", data-aos="zoom-in")
-            
+              img(src="@/assets/curso/temas/tema1/31.png", data-aos="zoom-in", alt="Imagen con tres espacios designados para firmas correspondientes al representante legal, contador público y revisor fiscal, cada uno con su respectiva línea de firma, título, número de tarjeta profesional (TP) y nota adicional en el caso del revisor fiscal indicando “Ver opinión adjunta”.")
+              figcaption Fuente. Tomada de Godoy (2014).
             p Dentro de las disposiciones legales vigentes aplicables a los estados financieros encontramos: 
 
             ul.lista-ul--color
@@ -474,7 +471,7 @@
 
             p Es de aclarar que en la ejecución de las transacciones o registros contables se discriminan como gastos administrativos, gastos de venta, gastos no operacionales, costos de venta, costos de producción, dado que, para los informes a nivel local (Colombia) se deben presentar discriminados. Sin embargo, bajo las Normas Internacionales de Información Financiera (NIIF), los informes se presentan sin códigos y todo corresponde a gastos (CTCP, 2020). 
 
-        h5.mb-5 Estructura general del estado de resultados por naturaleza de los gastos
+        h5.mb-5 En el siguiente anexo podrá ver la estructura general del estado de resultados por naturaleza de los gastos.
         .row.mb-5
           .col-lg-6
             a.anexo.mb-4(:href="obtenerLink('/downloads/estructura-general-estado.xls')" target="_blank")
@@ -493,7 +490,7 @@
                   h3.mb-1.bg-color-25 Estado de resultados por naturaleza de los gastos.
                   p.text-white En el siguiente anexo podrá ver la estructura general del estado de resultados por naturaleza de los gastos. 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fecored-sena.github.io%2FCF15_GESTION_CONTABLE%2Fdownloads%2Festructura-general-estado.xls&wdOrigin=BROWSELINK" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -508,7 +505,7 @@
           h5 Figura 6
           span Estado de resultado integral por naturaleza - comparativo anual
         figure.mb-5
-          img(src="@/assets/curso/temas/tema1/34.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/34.svg", data-aos="zoom-in", alt="Tabla de estado de resultado integral con clasificación de gastos por naturaleza, comparando los resultados de dos años. Incluye ingresos, otros ingresos, variaciones de inventarios, costos de producción, gastos operativos, financieros y de asociados. Presenta utilidad antes de impuestos, gasto por impuesto de renta y utilidad del período, desglosada entre interés minoritario y mayoritario.")
  
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -536,14 +533,14 @@
               h3.mb-1.bg-color-25 Estado de resultados por función de los gastos.
               p.text-white En el siguiente anexo podrá ver la estructura general del estado de resultados por función de los gastos.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fecored-sena.github.io%2FCF15_GESTION_CONTABLE%2Fdownloads%2Festructura-general-estado-funcion.xls&wdOrigin=BROWSELINK " target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
     separador
 
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.8.	Información a revelar
+      h2 1.8	Información a revelar
     
     .row.mb-5
       .col-lg-5.order-2
@@ -555,7 +552,7 @@
         .bg-color-1.p-4(data-aos="fade-left")
           p.mb-0 Las revelaciones separadas de los valores de ingresos y/o egresos, se expresan en las NIIF para pymes (NIC NIIF, 2020):
     
-    p.mb-5 “Una entidad revelará por separado las siguientes partidas en el estado del resultado integral como distribuciones para el periodo:
+    h5.mb-5 “Una entidad revelará por separado las siguientes partidas en el estado del resultado integral como distribuciones para el periodo:
 
     .row.justify-content-center
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -568,7 +565,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/37.svg', alt='Texto que describa la imagen')
 
-          h3.text-center El resultado del periodo atribuible a:
+          h3 El resultado del periodo atribuible a:
           ul.lista-ul--color
             li.mb-0.d-flex
               i.fas.fa-check-circle.bg-color-14
@@ -587,7 +584,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/38.svg', alt='Texto que describa la imagen')
 
-          h3.text-center El resultado integral total del periodo atribuible a:
+          h3 El resultado integral total del periodo atribuible a:
           ul.lista-ul--color
             li.mb-0.d-flex
               i.fas.fa-check-circle.bg-color-14
@@ -601,8 +598,10 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h4.mb-0 “Una entidad presentará un desglose de gastos, utilizando una clasificación basada en la naturaleza o en la función de los gastos dentro de la entidad, lo que proporcione una información que sea fiable y más relevante” (NIC NIIF, 2020).
+            h4.mb-0 “Una entidad presentará un desglose de gastos, utilizando una clasificación basada en la naturaleza o en la función de los gastos dentro de la entidad, lo que proporcione una información que sea fiable y más relevante”
             i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            p.mb-0  (NIC NIIF, 2020).
     
     .row.justify-content-center
       .col-lg-10.bg-color-9.tarjeta.p-5
@@ -655,7 +654,7 @@
 
         .row
           .col-lg-8
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/NIC-1-presentacion-estados-financieros.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
